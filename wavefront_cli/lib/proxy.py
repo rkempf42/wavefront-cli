@@ -41,7 +41,7 @@ def get_proxy_install_cmd(proxy_next):
         cmd += " && apt-get -y -q install wavefront-proxy"
         return cmd
     else:
-        print "Error: Unsupported OS version: %s. Please contact support@wavefront.com." % (dist)
+        print "Error: Unsupported OS version: %s." % (dist)
         return None
 
 
